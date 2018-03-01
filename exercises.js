@@ -102,6 +102,18 @@ Removethe first two elements in the snacks array and return a new array.
 Console log the new variable. */
 
 var snacks = ["peanut butter cup oreo", "birthday cake oreo", "banana split oreo", "watermelon oreo", "cookie dough oreo", "creamsicle oreo"];
+var snacks2 = [];
+
+function removeElem(arr){
+  var popped = arr.pop();
+  snacks2.push(popped);
+  return snacks2;
+}
+console.log(snacks);
+
+removeElem(snacks);
+console.log(removeElem(snacks));
+
 
 /*11. Declare two variables with names of your choosing and use the triple comparison operator (===) to compare:
 a) two strings "Racecar" and "racecar"
