@@ -121,6 +121,17 @@ b) a string and a number "three" and 3
 
 console log each variable*/
 
+/*var strawberry;
+var banana;
+
+if("Racecar" === "racecar")
+  return strawberry;
+
+if("three 3" === 3);
+return banana;*/
+
+
+
 /*12.  Declare a literal object named "hotel" with properties and values set to:
 
     name    => "Hilton"
@@ -130,6 +141,15 @@ console log each variable*/
 
  console log the object*/
 
+var hotel = {
+  name: "Hilton",
+  rooms: 200,
+  pool: true,
+  checkIn: null,
+};
+
+console.log(hotel);
+
 /*13.  Declare a literal object named "car" with properties and values set to:
 
     make  => "BMW"
@@ -138,6 +158,15 @@ console log each variable*/
     doors => 4
 
  console log the object*/
+
+var car = {
+  make: "BMW",
+  model: "X5",
+  year: 2015,
+  doors: 4,
+};
+
+console.log(car);
 
 /*14.  Declare a literal object named bigBox and set its value to be an empty object.
 
